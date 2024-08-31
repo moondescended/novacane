@@ -1,0 +1,32 @@
+@font-face {
+    font-family: CooperBlack;
+    src: url(CooperBlack.ttf);
+}
+@font-face {
+    font-family: ColourEmoji;
+    src: url(NotoColourEmoji.ttf);
+}
+.mainContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.main {
+    text-align: center;
+    font-family: CooperBlack;
+    font-size: 4vw;
+    line-height: 1.75vw;
+}
+.sub {
+    text-align: center;
+    font-family: CooperBlack;
+    font-size: 1.25vw;
+    color: rgb(255, 183, 149);
+    a {
+        color: rgb(255, 160, 116);
+    }
+}
+body {
+    background-color: rgb(10, 10, 30);
+}
